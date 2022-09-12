@@ -1,6 +1,6 @@
 # Microfrontend
 
-Scalable app with a microfrontend architecture and module federation.
+Scalable app with microfrontend architecture and module federation.
 
 
 Microfrontends are used to divide a large app into a series of smaller apps. This provides a set of unique benefits to any frontend:
