@@ -2,6 +2,8 @@
 
 Scalable app with microfrontend architecture and module federation.
 
+Live at: https://d39m468i9aqsvj.cloudfront.net
+
 
 Microfrontends are used to divide a large app into a series of smaller apps. This provides a set of unique benefits to any frontend:
 
