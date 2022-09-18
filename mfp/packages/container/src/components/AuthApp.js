@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { mount } from 'marketing/MarketingApp';
+import { mount } from 'auth/AuthApp';
 import { useHistory } from 'react-router-dom';
 
 export default () => {
@@ -15,7 +15,7 @@ export default () => {
         if (pathname !== nextPathname) {
           history.push(nextPathname);
         }
-      }
+      },
     });
 
     history.listen(onParentNavigate)
@@ -25,4 +25,3 @@ export default () => {
     <div ref={ref} />
   )
 }
-
