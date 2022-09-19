@@ -21,7 +21,7 @@ export default () => {
 
   useEffect(() => {
     if(isSignedIn) {
-      history.push('dashboard');
+      history.push('/dashboard');
     }
   }, [isSignedIn]);
 
