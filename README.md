@@ -1,6 +1,8 @@
 # Microfrontend
 
 Scalable app with microfrontend architecture and module federation.
+The app has webpack configuration with a full CI/CD pipeline.
+It's also deployed on Amazon Web Services using CloudFront.
 
 Live at: https://d39m468i9aqsvj.cloudfront.net
 
